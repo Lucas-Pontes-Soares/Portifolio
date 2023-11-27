@@ -1,7 +1,12 @@
+import { Navbar } from "../components/Navbar";
+
 export function SobreMim(){
     return(
-        <div>
-            <h1>Sobre Mim</h1>
+        <div className="bg-minhaCor h-screen">
+        <Navbar />
+        <div className="bg-[url('/BarcoFundo.png')] h-screen">
+          teste
         </div>
+   </div>
     )
 }
