@@ -12,10 +12,14 @@ export default {
       'display': ['Oswald'],
       'body': ['"Open Sans"'],
       'itim': ['"Itim"', 'cursive'],
+      'Julius': ['Julius Sans One', 'sans-serif'],
+      'josefin': ['Josefin Slab', 'serif'],
     },
     extend: {
       colors: {
         minhaCor: "#160202",
+        marromAlaranjado: "#984137",
+        marromEscurado: "#4A201A"
       },
 
       backgroundImage: {

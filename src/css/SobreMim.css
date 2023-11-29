@@ -1,0 +1,42 @@
+.bg-image {
+    background-image: url('/BarcoFundo.png'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+  }
+
+  .bg-image2 {
+    height: 500px;
+    position: relative;
+  }
+
+.bg-imageProjetos {
+    background-image: url('/BarcoFundo2.png'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+  
+
+.triangule1 {
+    border-color: #160202 #a569bd00 #160202 #F4D03F;
+    border-width: 0 58px 58px 0;
+}
+
+.triangule2 {
+    border-color: #F4D03F #160202 #160202 #a569bd00;
+    border-width: 0px 0px 58px 58px;
+}
+
+.tringuleLateral {
+    border-color: transparent transparent transparent #160202;
+    border-width: 160px 0 160px 150px;
+}
+
+.tringuleLateral2 {
+    border-color: transparent #160202 transparent transparent;
+    border-width: 160px 160px 160px 0px;
+}
+
+
+
