@@ -17,6 +17,56 @@
     background-repeat: no-repeat; 
 }
   
+.bg-imageHabilidades {
+    background-image: url('/BarcoFundo3.png'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+.bg-imageContato {
+    background-image: url('/FundoContato.png'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+.bg-imagemMinha{
+    background-image: url('/eu.png'); 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+
+.bg-github{
+    background-image: url('/github2.png'); 
+    background-size: contain;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+.bg-linkedin{
+    background-image: url('/linkedin.png'); 
+    background-size: contain;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+.bg-email{
+    background-image: url('/email.png'); 
+    background-size: contain;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
+.bg-phone{
+    background-image: url('/phone.png'); 
+    background-size: contain;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+}
+
 
 .triangule1 {
     border-color: #160202 #a569bd00 #160202 #F4D03F;
