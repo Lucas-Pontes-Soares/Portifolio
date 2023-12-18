@@ -25,7 +25,7 @@ export const Navbar: React.FC<Props> = ({ page }) => {
   };
 
   return (
-    <div className={`flex fixed w-full content-start flex-wrap text-slate-50 bg-neutral-900 bg-opacity-70 z-20 ${isMobile ? 'md:hidden' : ''}`}>
+    <div className={`flex fixed w-full content-start flex-wrap text-slate-50 bg-neutral-900 bg-opacity-70 z-20`}>
       {!isMobile && (
         <>
           <div className="flex-1 h-16 flex items-center justify-center text-2xl font-itim hover:text-amber-300">
@@ -71,7 +71,8 @@ export const Navbar: React.FC<Props> = ({ page }) => {
       )}
       {isMobile && (
         <>
-         <div className="flex-1 h-16 flex items-center justify-center text-white text-2xl font-itim">
+        <div className='flex content-center w-full'>
+        <div className="flex-1 h-16 flex items-center justify-center text-white text-2xl font-itim">
             <p>Portfolio</p>
           </div>
           <div className="flex-1 h-16 flex items-center justify-center">
@@ -80,6 +81,7 @@ export const Navbar: React.FC<Props> = ({ page }) => {
           <div className="flex-1 h-16 flex items-center justify-center md:hidden">
             <button className="text-white text-2xl font-itim hover:text-amber-300" onClick={toggleMenu}>Menu</button>
           </div>
+        </div>
           {menuOpen && (
             <div className="md:hidden w-full">
               <div className="text-white text-2xl font-itim hover:text-amber-300">

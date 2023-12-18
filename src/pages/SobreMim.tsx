@@ -1,7 +1,21 @@
 import { BarraInferior } from "../components/BarraInferior";
 import { Navbar } from "../components/Navbar";
+import React, { useState, useEffect } from 'react';
 
 export function SobreMim(){
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+    window.addEventListener('resize', handleResize);
+
+    handleResize();
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
     return(
         <div className="bg-minhaCor min-h-screen">
             <Navbar page="sobre-mim"/>
@@ -40,32 +54,33 @@ export function SobreMim(){
 
             <br />
 
-            <div className="flex w-full h-14 items-center justify-center">
-                <div className="flex-auto flex items-center justify-center"></div>
-                <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
-                    #BackEnd
-                </div>
-                <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
-                    #FrontEnd
-                </div>
-                <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
-                    #NodeJS
-                </div>
-                <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
-                    #ReactJS
-                </div>
-                <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
-                    #SQL
-                </div>
-                <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
-                    #MongoDB
-                </div>
-                <div className="flex-auto flex items-center justify-center"></div>
+            <div className="flex flex-col sm:flex-row w-full h-14 items-center justify-center">
+            <div className="flex-auto flex items-center justify-center pt-5 pb-5"></div>
+            <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
+                #BackEnd
             </div>
+            <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
+                #FrontEnd
+            </div>
+            <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
+                #NodeJS
+            </div>
+            <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
+                #ReactJS
+            </div>
+            <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
+                #SQL
+            </div>
+            <div className="flex-auto flex items-center justify-center text-white text-xl font-Julius">
+                #MongoDB
+            </div>
+            <div className="flex-auto flex items-center justify-center"></div>
+            </div>
+
 
             <br />
 
-            <div className="bg-image2 relative w-full h-14">
+            {!isMobile && <div className="bg-image2 relative w-full h-14">
                 <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay muted loop>
                     <source src="/praia1video.mp4" type="video/mp4" />
                     Seu navegador não suporta o elemento de vídeo.
@@ -83,10 +98,28 @@ export function SobreMim(){
                     <div className="flex-auto flex items-center w-4/12 justify-center"></div>
                 </div>
             </div>
+            }
+            
+            {isMobile &&
+            <div>
+            <div className="bg-image2 relative w-full h-14">
+                <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay muted loop>
+                    <source src="/praia1video.mp4" type="video/mp4" />
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+            <div className="ml-10 mr-5 mt-3">
+                <h1 className="text-white text-xl font-Julius text-left pb-7">Formação Acadêmica</h1>
+                <p className="text-white text-xl font-josefin">
+                    Olá! Meu nome é Lucas Pontes Soares, atualmente estou cursando o 3 ano do ensino medio de desenvolvimento de sistemas na ETEC / FATEC. 
+                </p>
+            </div>
+            </div>
+            }
 
             <br/>
 
-            <div className="bg-image2 relative w-full h-14">
+            {!isMobile && <div className="bg-image2 relative w-full h-14">
                 <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay muted loop>
                     <source src="/praia2video.mp4" type="video/mp4" />
                     Seu navegador não suporta o elemento de vídeo.
@@ -103,7 +136,24 @@ export function SobreMim(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>}
+            
+            {isMobile &&
+                <div>
+                    <div className="bg-image2 relative w-full h-14">
+                        <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay muted loop>
+                            <source src="/praia2video.mp4" type="video/mp4" />
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div className="ml-10 mr-5 mt-3">
+                        <h1 className="text-white text-xl font-Julius text-left pb-7">Meu Objetivo</h1>
+                        <p className="text-white text-xl font-josefin">
+                            Gosto muito de programação, busco aumentar meus conhecimentos na área de tecnologia da informação e programação, estou sempre disposto a me atualizar e aprimorar nessa área, buscando ir para o próximo nível!  
+                        </p>
+                    </div>
+                </div>
+            }
 
             <br /><br /><br /><br /><br /><br />
         </div>
