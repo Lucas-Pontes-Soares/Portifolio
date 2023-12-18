@@ -4,7 +4,7 @@ import { Navbar } from "../components/Navbar";
 export function SobreMim(){
     return(
         <div className="bg-minhaCor min-h-screen">
-            <Navbar />
+            <Navbar page="sobre-mim"/>
             <div className="bg-image h-screen flex flex-col justify-between">
                 <div className="flex-grow flex flex-col items-center justify-center">
                     <h1 className="text-emerald-400 text-7xl font-bold">

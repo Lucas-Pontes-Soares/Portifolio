@@ -20,7 +20,7 @@ export function Contato(){
 
     return(
         <div className="bg-minhaCor min-h-screen">
-            <Navbar />
+            <Navbar page="contato"/>
             <div className="bg-imageContato h-screen flex items-center justify-center">
                 <div className="flex w-7/12 h-96 border-4 border-teal-700 relative mt-32 bg-black bg-opacity-50">
                     <div className="bg-imagemMinha absolute w-40 h-40 top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-teal-700"></div>

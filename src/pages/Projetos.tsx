@@ -7,7 +7,7 @@ export function Projetos(){
 
     return(
        <div className="bg-minhaCor min-h-screen">
-            <Navbar />
+            <Navbar page="projetos"/>
             <div className="bg-imageProjetos h-screen flex flex-col justify-between">
                 <div className="flex-grow flex flex-col items-center justify-center">
                 <div className="flex items-center w-full">

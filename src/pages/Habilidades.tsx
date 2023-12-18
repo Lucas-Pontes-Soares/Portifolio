@@ -4,7 +4,7 @@ import TextShpere from "../components/TextShpere";
 export function Habilidades(){
     return(
         <div className="bg-minhaCor min-h-screen">
-            <Navbar />
+            <Navbar page="habilidades"/>
             <div className="bg-imageHabilidades h-screen flex flex-col justify-between">
             <div className="flex w-full h-full items-center justify-center">
                     <div className="flex w-6/12 items-center h-80 justify-center bg-minhaCor text-white z-10">
