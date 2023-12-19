@@ -11,16 +11,14 @@ export function Projetos(){
             <div className="bg-imageProjetos h-screen flex flex-col justify-between">
                 <div className="flex-grow flex flex-col items-center justify-center">
                 <div className="flex items-center w-full">
-                    <div className="flex-1 pl-16 w-30">
-                        <h1 className="text-emerald-400 text-7xl font-bold pb-8">
+                <div className="flex-1 pl-16 w-30">
+                    <h1 className="text-emerald-400 text-4xl font-bold pb-8 sm:text-7xl">
                         Conheça meus Projetos
-                        </h1>
-                        <hr className="border-b-2 border-white w-72"/>
-                    </div>
-                    <div className="flex-1 flex items-center justify-center">
-                        <img src="/projetos.png" alt="Projetos" height="300px" width="250px" />
-                    </div>
+                    </h1>
+                    <hr className="border-b-2 border-white w-72"/>
                 </div>
+            </div>
+
                 </div>
                 <BarraInferior pagina="Projetos"/>
             </div>
@@ -30,17 +28,17 @@ export function Projetos(){
             </div>
             <div className="flex-1">
                 <div className="flex items-center justify-center h-full flex-col">
-                    <h1 className="text-emerald-400 text-5xl font-bold pb-3">
+                    <h1 className="text-emerald-400 text-2xl font-bold pb-3 sm:text-5xl">
                             Conheça meus projetos!
                     </h1>
-                    <p className="text-emerald-800 text-2xl font-bold">Passe o cursor por cima para saber mais</p>
+                    <p className="text-emerald-800 text-1xl font-bold sm:text-2xl">Passe o cursor por cima para saber mais</p>
                 </div>
             </div>
             <div className="flex">
                 <img src="/timaoEsquerda.png" alt="Imagem Direita" />
             </div>
             </div>
-            <div className="flex">
+            <div className="flex flex-wrap w-full gap-20 justify-center">
                 <div className="flex-1 flex items-center justify-center">
                     <FlipCard 
                         frontImage="./gplink.png"
@@ -71,7 +69,18 @@ export function Projetos(){
                         site=""
                     />
                 </div>
+                <div className="flex-1 flex items-center justify-center">
+                    <FlipCard 
+                        frontImage="./nlwIA.png"
+                        title="NLW IA"
+                        subtitle="Upload AI"
+                        description="Contruindo um sistema que consome API do GPT, para fornecer titulos e descrição de um vídeo do youtube, com base na sua transcição de audio para texto."
+                        github="https://github.com/Lucas-Pontes-Soares/NLW-IA"
+                        site=""
+                    />
+                </div>
             </div>
+
             <br /><br /><br /><br />
        </div>
     )
