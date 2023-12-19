@@ -90,7 +90,10 @@ export function SobreMim(){
                         <div className="pl-10">
                             <h1 className="text-white text-xl font-Julius text-left pb-7">Formação Acadêmica</h1>
                             <p className="text-white text-xl font-josefin">
-                                Olá! Meu nome é Lucas Pontes Soares, atualmente estou cursando o 3 ano do ensino medio de desenvolvimento de sistemas na ETEC / FATEC. 
+                            Olá! Meu nome é Lucas Pontes Soares, sou técnico em desenvolvimento de sistemas, formado pela ETEC no curso DS AMS.
+                            </p>
+                            <p className="text-white text-xl font-josefin">
+                            Atualmente estou continuando minha formação em TI, na FATEC em Ourinhos, no curso de desenvolvimento de sistemas, para me tornar Tecnólogo, na qual concluirei em 2025.
                             </p>
                         </div>
                     </div>

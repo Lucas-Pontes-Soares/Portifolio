@@ -36,12 +36,12 @@ export const FlipCard: React.FC<FlipCardProps> = ({ title, frontImage, descripti
 
                     <div className='border-t-2 border-white pl-3 w-60'>
                     <p className='font-itim pl-3 pr-3 pb-2'>Acesse os links: </p>
-                        <a href={github}>
+                        <a target="_blank" href={github}>
                             <img src="/github.png" alt="Github" className="inline-block w-6 h-6 mr-2" />
                             Github
                         </a>
                         <br />
-                        {site === "https://gplink-aj6y.onrender.com/" ?  <a href={site}>
+                        {site === "https://gplink-aj6y.onrender.com/" ?  <a target="_blank" href={site}>
                             <img src="/iconeGPLINK 1.png" alt="Site" className="inline-block w-6 h-6 mr-2" />
                             Site
                         </a> : <p></p>}

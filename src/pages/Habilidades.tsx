@@ -9,7 +9,7 @@ export function Habilidades(){
             <div className="flex w-full h-full items-center justify-center">
                     <div className="flex w-6/12 items-center h-80 justify-center bg-minhaCor text-white z-10">
                         <div className="pl-10">
-                            <h1 className="text-white text-xl font-Julius text-left pb-7">Minhas Habilidades</h1>
+                            <h1 className="text-white text-xl font-Julius text-left pb-7">HardSkills</h1>
                             <TextShpere />
                         </div>
                     </div>
