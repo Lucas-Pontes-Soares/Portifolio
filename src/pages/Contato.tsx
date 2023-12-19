@@ -22,7 +22,7 @@ export function Contato(){
         <div className="bg-minhaCor min-h-screen">
             <Navbar page="contato"/>
             <div className="bg-imageContato h-screen flex items-center justify-center">
-                <div className="flex w-7/12 h-96 border-4 border-teal-700 relative mt-32 bg-black bg-opacity-50">
+                <div className="flex w-10/12 h-96 border-4 border-teal-700 relative mt-32 bg-black bg-opacity-50 sm:w-7/12">
                     <div className="bg-imagemMinha absolute w-40 h-40 top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 border-4 border-teal-700"></div>
                          <div className="mt-24 ml-8 mr-8 text-white">
                                 {titulo ? <li className="text-2xl">{titulo}</li> : <p>Clique em alguma opção de contato para acessar</p>}
@@ -40,15 +40,15 @@ export function Contato(){
                     <div className="flex absolute bottom-0 transform translate-y-1/2 w-full content-start flex-wrap">
                         <div 
                             onClick={() => handleClick('Meu GitHub:', 'Aqui você vai encontrar códigos e projetos meus: ', 'https://github.com/Lucas-Pontes-Soares')}
-                            className="bg-github flex h-20 w-20 items-center justify-center ml-auto border-4 border-teal-700 bg-teal-700 cursor-pointer">
+                            className="bg-github flex h-20 w-20 items-center justify-center ml-auto mr-auto border-4 border-teal-700 bg-teal-700 cursor-pointer">
                         </div>
                         <div 
                             onClick={() => handleClick('Meu Linkedin:', 'Conheça meu perfil profissional do Linkedin, saiba mais sobre minha vida academica/profissional e minhas habilidades ', 'https://www.linkedin.com/in/lucas-pontes-soares/')}
-                            className="bg-linkedin flex h-20 w-20 items-center justify-center ml-auto border-4 border-teal-700 bg-teal-700">
+                            className="bg-linkedin flex h-20 w-20 items-center justify-center ml-auto mr-auto border-4 border-teal-700 bg-teal-700">
                         </div>
                         <div 
                             onClick={() => handleClick('Meu E-mail:', 'Pode entrar em contato comigo através do meu email: ', 'mailto:eterneru.lucas@outlook.com')}
-                            className="bg-email flex h-20 w-20 items-center justify-center ml-auto border-4 border-teal-700 bg-teal-700">
+                            className="bg-email flex h-20 w-20 items-center justify-center ml-auto mr-auto border-4 border-teal-700 bg-teal-700">
                         </div>
                         <div 
                             onClick={() => handleClick('Meu Telefone:', 'Pode entrar em contato comigo através do meu telefone, whatsapp: ', '+55 (14) 98219-7061')}
