@@ -10,10 +10,10 @@ export function Rotas() {
    return(
       <Routes>
          <Route path="/" element={<Projetos />} />
-         <Route path="/SobreMim" element={<SobreMim />} />
-         <Route path="/Contato" element={<Contato />} />
-         <Route path="/Projetos" element={<Projetos />} />
-         <Route path="/Habilidades" element={<Habilidades />} />
+         <Route path="SobreMim" element={<SobreMim />} />
+         <Route path="Contato" element={<Contato />} />
+         <Route path="Projetos" element={<Projetos />} />
+         <Route path="Habilidades" element={<Habilidades />} />
       </Routes>
    )
 }
