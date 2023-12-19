@@ -1,12 +1,6 @@
 import { Navbar } from "../components/Navbar";
 import { useState } from 'react';
 
-interface ContatoProps {
-    titulo: string;
-    texto: string;
-    link: string;
-  }
-
 export function Contato(){
     const [titulo, setTitulo] = useState<string>('');
     const [textoPrincipal, setTextoPrincipal] = useState<string>('');

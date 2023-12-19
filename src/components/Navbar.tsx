@@ -30,20 +30,20 @@ export const Navbar: React.FC<Props> = ({ page }) => {
         <>
           <div className="flex-1 h-16 flex items-center justify-center text-2xl font-itim hover:text-amber-300">
             {page === 'sobre-mim' ? (
-              <a className="text-amber-300" href="http://localhost:5173/SobreMim">
+              <a className="text-amber-300" href="https://portfolio-qb0k.onrender.com/SobreMim">
                 Sobre Mim
               </a>
             ) : (
-              <a href="http://localhost:5173/SobreMim">Sobre Mim</a>
+              <a href="https://portfolio-qb0k.onrender.com/SobreMim">Sobre Mim</a>
             )}
           </div>
           <div className="flex-1 h-16 flex items-center justify-center text-2xl font-itim hover:text-amber-300">
             {page === 'habilidades' ? (
-              <a className="text-amber-300" href="http://localhost:5173/Habilidades">
+              <a className="text-amber-300" href="https://portfolio-qb0k.onrender.com/Habilidades">
                 Habilidades
               </a>
             ) : (
-              <a href="http://localhost:5173/Habilidades">Habilidades</a>
+              <a href="https://portfolio-qb0k.onrender.com/Habilidades">Habilidades</a>
             )}
           </div>
           <div className="flex-1 h-16 flex items-center justify-center">
@@ -51,20 +51,20 @@ export const Navbar: React.FC<Props> = ({ page }) => {
           </div>
           <div className="flex-1 h-16 flex items-center justify-center text-2xl font-itim hover:text-amber-300">
             {page === 'projetos' ? (
-              <a className="text-amber-300" href="http://localhost:5173/Projetos">
+              <a className="text-amber-300" href="https://portfolio-qb0k.onrender.com/Projetos">
                 Projetos
               </a>
             ) : (
-              <a href="http://localhost:5173/Projetos">Projetos</a>
+              <a href="https://portfolio-qb0k.onrender.com/Projetos">Projetos</a>
             )}
           </div>
           <div className="flex-1 h-16 flex items-center justify-center text-2xl font-itim hover:text-amber-300">
             {page === 'contato' ? (
-              <a className="text-amber-300" href="http://localhost:5173/Contato">
+              <a className="text-amber-300" href="https://portfolio-qb0k.onrender.com/Contato">
                 Contato
               </a>
             ) : (
-              <a href="http://localhost:5173/Contato">Contato</a>
+              <a href="https://portfolio-qb0k.onrender.com/Contato">Contato</a>
             )}
           </div>
         </>
@@ -86,38 +86,38 @@ export const Navbar: React.FC<Props> = ({ page }) => {
             <div className="md:hidden w-full">
               <div className="text-white text-2xl font-itim hover:text-amber-300">
                   {page === 'sobre-mim' ? (
-                  <a className="text-amber-300" href="http://localhost:5173/SobreMim">
+                  <a className="text-amber-300" href="https://portfolio-qb0k.onrender.com/SobreMim">
                     Sobre Mim
                   </a>
                 ) : (
-                  <a href="http://localhost:5173/SobreMim">Sobre Mim</a>
+                  <a href="https://portfolio-qb0k.onrender.com/SobreMim">Sobre Mim</a>
                 )}
               </div>
               <div className="text-white text-2xl font-itim hover:text-amber-300">
                 {page === 'habilidades' ? (
-                  <a className="text-amber-300" href="http://localhost:5173/Habilidades">
+                  <a className="text-amber-300" href="https://portfolio-qb0k.onrender.com/Habilidades">
                     Habilidades
                   </a>
                 ) : (
-                  <a href="http://localhost:5173/Habilidades">Habilidades</a>
+                  <a href="https://portfolio-qb0k.onrender.com/Habilidades">Habilidades</a>
                 )}
               </div>
               <div className="text-white text-2xl font-itim hover:text-amber-300">
                 {page === 'projetos' ? (
-                  <a className="text-amber-300" href="http://localhost:5173/Projetos">
+                  <a className="text-amber-300" href="https://portfolio-qb0k.onrender.com/Projetos">
                     Projetos
                   </a>
                 ) : (
-                  <a href="http://localhost:5173/Projetos">Projetos</a>
+                  <a href="https://portfolio-qb0k.onrender.com/Projetos">Projetos</a>
                 )}
               </div>
               <div className="text-white text-2xl font-itim hover:text-amber-300">
                 {page === 'contato' ? (
-                  <a className="text-amber-300" href="http://localhost:5173/Contato">
+                  <a className="text-amber-300" href="https://portfolio-qb0k.onrender.com/Contato">
                     Contato
                   </a>
                 ) : (
-                  <a href="http://localhost:5173/Contato">Contato</a>
+                  <a href="https://portfolio-qb0k.onrender.com/Contato">Contato</a>
                 )}
               </div>
             </div>

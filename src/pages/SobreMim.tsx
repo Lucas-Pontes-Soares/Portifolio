@@ -1,6 +1,6 @@
 import { BarraInferior } from "../components/BarraInferior";
 import { Navbar } from "../components/Navbar";
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export function SobreMim(){
   const [isMobile, setIsMobile] = useState(false);

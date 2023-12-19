@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 
-import {App} from "./App.tsx";
 import {SobreMim} from "./pages/SobreMim.tsx";
 import {Contato} from "./pages/Contato.tsx";
 import { Projetos } from "./pages/Projetos.tsx";
