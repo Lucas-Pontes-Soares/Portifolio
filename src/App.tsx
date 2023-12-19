@@ -1,9 +1,7 @@
-import { Navbar } from "./components/Navbar";
+import {Rotas} from "./Routes.tsx"
 
 export function App() {
   return (
-    <div className="bg-minhaCor h-screen">
-      <Navbar page="sobremim"/>
- </div>
+    <Rotas />
   )
 }
