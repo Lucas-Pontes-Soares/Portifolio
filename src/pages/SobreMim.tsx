@@ -105,7 +105,7 @@ export function SobreMim(){
             
             {isMobile &&
             <div>
-            <div className="bg-image2 relative w-full h-14">
+            <div className="bg-image2 relative w-full h-14 mt-20">
                 <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay muted loop>
                     <source src="/praia1video.mp4" type="video/mp4" />
                     Seu navegador não suporta o elemento de vídeo.
