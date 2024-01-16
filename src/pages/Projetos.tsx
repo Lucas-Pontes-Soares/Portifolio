@@ -79,6 +79,36 @@ export function Projetos(){
                         site=""
                     />
                 </div>
+                <div className="flex-1 flex items-center justify-center">
+                    <FlipCard 
+                        frontImage="./ListaCompras.png"
+                        title="Lista de Compras"
+                        subtitle="Angular"
+                        description="Curso Alura: Angular: ciclo de vida. Um projeto com CRUD completo de lista de compras."
+                        github="https://github.com/Lucas-Pontes-Soares/ListaCompras"
+                        site=""
+                    />
+                </div>
+                <div className="flex-1 flex items-center justify-center">
+                    <FlipCard 
+                        frontImage="./memoteca.png"
+                        title="Memoteca"
+                        subtitle="Angular"
+                        description="Cursos Alura: Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD & Angular 14: evoluindo a aplicação. Um projeto com CRUD completo de pensamentos, citações ou músicas."
+                        github="https://github.com/Lucas-Pontes-Soares/memoteca"
+                        site=""
+                    />
+                </div>
+                <div className="flex-1 flex items-center justify-center">
+                    <FlipCard 
+                        frontImage="./AluraBooks.png"
+                        title="AluraBooks"
+                        subtitle="Angular"
+                        description="Curso Alura: Angular: formulários orientados a templates. Um projeto com para preenchimento de formulário com restrições e diretivas, utiliznado a API para trazer dados do endereço com o CEP."
+                        github="https://github.com/Lucas-Pontes-Soares/alurabooks"
+                        site=""
+                    />
+                </div>
             </div>
 
             <br /><br /><br /><br />
