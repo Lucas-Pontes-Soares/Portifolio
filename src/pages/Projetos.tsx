@@ -109,6 +109,16 @@ export function Projetos(){
                         site=""
                     />
                 </div>
+                <div className="flex-1 flex items-center justify-center">
+                    <FlipCard 
+                        frontImage="./nlw-expert.png"
+                        title="NLW Expert - ReactJS"
+                        subtitle="NOTES"
+                        description="Rocketseat NLW: ReactJS: projeto de notas, utilizando vite, typescript, tailwindCSS, SpeechRecognitionAPI. Possui funcionalidades de criar notas, tanto por texto tanto por fala, procurar por nota e excluir."
+                        github="https://github.com/Lucas-Pontes-Soares/NLW-Expert"
+                        site=""
+                    />
+                </div>
             </div>
 
             <br /><br /><br /><br />

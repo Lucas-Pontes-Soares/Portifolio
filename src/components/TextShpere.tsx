@@ -9,6 +9,7 @@ const TextShpere = () => {
     const container = ".tagcloud";
     const texts = [
       'NodeJS', 'ReactJS', 'JavaScript',
+      'Typescript', 'Angular',
       'HTML', 'CSS', 'C++',
       'Cisco', 'JUnit', 'Java',
       'Arduino', 'SQL', 'MongoDB',
