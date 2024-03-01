@@ -31,14 +31,14 @@ export function Projetos(){
                     <h1 className="text-emerald-400 text-2xl font-bold pb-3 sm:text-5xl">
                             Conheça meus projetos!
                     </h1>
-                    <p className="text-emerald-800 text-1xl font-bold sm:text-2xl">Passe o cursor por cima para saber mais</p>
+                    <p className="text-emerald-800 text-1xl font-bold sm:text-2xl">Passe o cursor por cima (ou clique) no projeto para saber mais</p>
                 </div>
             </div>
             <div className="flex">
                 <img src="/timaoEsquerda.png" alt="Imagem Direita" />
             </div>
             </div>
-            <div className="flex flex-wrap w-full gap-20 justify-center">
+            <div className="flex flex-wrap w-full gap-40 justify-center">
                 <div className="flex-1 flex items-center justify-center">
                     <FlipCard 
                         frontImage="./gplink.png"
@@ -116,6 +116,16 @@ export function Projetos(){
                         subtitle="NOTES"
                         description="Rocketseat NLW: ReactJS: projeto de notas, utilizando vite, typescript, tailwindCSS, SpeechRecognitionAPI. Possui funcionalidades de criar notas, tanto por texto tanto por fala, procurar por nota e excluir."
                         github="https://github.com/Lucas-Pontes-Soares/NLW-Expert"
+                        site=""
+                    />
+                </div>
+                <div className="flex-1 flex items-center justify-center">
+                    <FlipCard 
+                        frontImage="./newsBlog.png"
+                        title="NewsBlog"
+                        subtitle="ReactJS"
+                        description="Projeto em ReactJS, vite, com tailwindCSS, para um sistema de blogs de artigos, com uma home principal para visualizar todos os artigos, ao passar o cursor por cima, verá a descrição, clique para ler completamente. Criar artigos com determinadas sessões."
+                        github="https://github.com/Lucas-Pontes-Soares/NewsBlog"
                         site=""
                     />
                 </div>
